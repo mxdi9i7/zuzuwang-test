@@ -1,0 +1,8 @@
+        <footer class="page-footer">
+        </footer>
+
+	
+    <script src="/javascripts/materialize.min.js"></script>
+    <script type="text/javascript" src="/javascripts/main.js"></script>
+	</body>
+</html>
