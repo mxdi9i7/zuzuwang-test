@@ -3,12 +3,13 @@
   	<head>
 	   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-	    <script src="/javascripts/jquery-3.1.1.min.js"></script> 
+	    <script src="javascripts/jquery-3.1.1.min.js"></script> 
+      <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 	    <meta charset="utf-8"> 
   	</head>
   	<body id="body">
 		<nav>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper black">
       <a href="#!" class="brand-logo">Logo</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
