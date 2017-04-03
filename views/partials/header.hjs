@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <html>
   	<head>
+  		<link rel='stylesheet' href='/stylesheets/style.css' />
 	   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+<<<<<<< HEAD
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <script src="/javascripts/jquery-3.1.1.min.js"></script> 
+	    <meta charset="utf-8"> 
+  	</head>
+  	<body id="body">
+		<nav class="#424242 grey darken-3">
+    		<div class="nav-wrapper">
+      			<a href="#!" class="brand-logo" id="index-logo">Logo</a>
+      			<ul class="right hide-on-med-and-down">
+        			<li><a href="collapsible.html">登录</a></li>
+        			<li><a href="mobile.html">注册</a></li>
+      			</ul>
+    		</div>
+  		</nav> 
+=======
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	    <script src="javascripts/jquery-3.1.1.min.js"></script> 
       <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
@@ -27,3 +44,4 @@
     </div>
   </nav>
 		</nav>	  
+>>>>>>> 4eba1b32bb7fe481d4d2f0e0b719427e9fb0a0ed

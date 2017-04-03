@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+        <footer class="page-footer #424242 grey darken-3">
+=======
 		<footer class="page-footer black">
+>>>>>>> 4eba1b32bb7fe481d4d2f0e0b719427e9fb0a0ed
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
@@ -23,9 +27,12 @@
             </div>
           </div>
         </footer>
+<<<<<<< HEAD
+=======
 	
     <script src="javascripts/materialize.min.js"></script>
     <script type="text/javascript" src="javascripts/main.js"></script>
 
+>>>>>>> 4eba1b32bb7fe481d4d2f0e0b719427e9fb0a0ed
 	</body>
 </html>
