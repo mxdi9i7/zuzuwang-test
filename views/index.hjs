@@ -1,6 +1,16 @@
 {{> header }}
-  	<body>
+  	<body onload="drop()">
+  		<div id="map"></div>
     	<h1>{{ title }}</h1>
     	<p>Welcome to {{ title }}</p>
+    	{{#users}}
+    		<p>{{id}}</p>
+    		<p>{{nickname}}</p>
+    		<p>{{email}}</p>
+    		<p>{{password}}</p>
+    	{{/users}}
   	</body>
 {{> footer }}
+<script type="text/javascript" src="/javascripts/map.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj4vzzY3X0sNVVTgdO_bSpsvD46-P8z5o&callback=initMap">
+    </script>
