@@ -1,0 +1,26 @@
+{{> header }}
+	<div class="row" id="box">
+		<div>
+			<form action="/login" method="post" class="login-form">
+				<center><h5 class="login-title">租租网用户登录</h5></center>
+				<div class="input-field">
+			        <label for="username">邮箱地址</label>
+				        <input type="text" name="username" id="email" class="validate" required>
+				        <span class="spin"></span>
+			    </div>
+			    <div class="input-field">
+			        <label for="password">密码</label>
+			        <input type="password" name="password" id="password" required>
+			    </div>
+			    <a href="" class="pass-forgot">忘记密码？</a>
+			    <a href="" class="signUp-btn"> 没有账号？快点我注册</a>
+		      	<div class="signInBox">
+		        	<div class="button login">
+		          		<button class="btn-large btn grey darken-2 waves-effect waves-light white-text" type="submit"><span>登录</span></button>
+			        </div>
+			    </div>
+		    </form>
+		</div>
+	</div>
+
+{{> footer }}
